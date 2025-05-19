@@ -1,0 +1,12 @@
+:root {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+
+  --font-serif: "Times New Roman", Times, serif;
+
+  --primary-color: #000000;
+  --secondary-color: #1d1d1d;
+  --tertiary-color: #363636;
+  --quaternary-color: #525252;
+}
