@@ -4,7 +4,7 @@ body {
   font-style: normal;
   font-variation-settings: "wght" var(--font-sans-weight, 400), "wdth" 100;
   line-height: 1.75;
-  font-size: 1.25em;
+  font-size: 1.15em;
   color: #363636;
   background: #ffffff;
   text-rendering: optimizeLegibility;
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  font-size: 2.75em;
+  font-size: 1.5em;
   margin-top: 0;
 }
 
@@ -26,6 +26,9 @@ h6 {
   font-family: var(--font-serif);
   margin: 3em 0 1em;
   letter-spacing: 0.05em;
+  font-optical-sizing: auto;
+  font-weight: var(--font-serif-weight, 400);
+  font-style: italic;
 }
 
 p,

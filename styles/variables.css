@@ -4,7 +4,8 @@
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   --font-sans-weight: 400; /* Default weight for Instrument Sans */
-  --font-serif: "Instrument Serif", serif;
+  --font-serif: "Newsreader", serif;
+  --font-serif-weight: 400; /* Default weight for Newsreader */
 
   /* colors */
   --primary-color: #000000;
