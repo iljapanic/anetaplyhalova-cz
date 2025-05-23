@@ -1,15 +1,14 @@
 :root {
   /* fonts */
-  --font-sans: "Instrument Sans", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
-  --font-sans-weight: 400; /* Default weight for Instrument Sans */
-  --font-serif: "Newsreader", serif;
-  --font-serif-weight: 400; /* Default weight for Newsreader */
+
+  --font-body: "Merriweather", serif;
+
+  --font-heading: "Merriweather Sans", system-ui, "Segoe UI", "Helvetica Neue",
+    sans-serif;
 
   /* colors */
-  --primary-color: #000000;
-  --secondary-color: #1d1d1d;
-  --tertiary-color: #363636;
-  --quaternary-color: #525252;
+  --text-primary: #fff;
+  --text-secondary: #0093b5;
+  --border: #dbdbdb;
+  --accent: #0093b5;
 }

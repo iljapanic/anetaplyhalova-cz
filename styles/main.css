@@ -1,0 +1,37 @@
+@import "./variables.css";
+@import "./base.css";
+
+.container {
+  max-width: 58ch;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.header {
+  margin-bottom: 5rem;
+}
+
+.footer {
+  padding-bottom: 6rem;
+}
+
+.footer p {
+  margin-bottom: 0.75rem;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-center {
+  text-align: center;
+}

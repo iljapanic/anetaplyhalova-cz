@@ -1,47 +1,52 @@
 body {
-  font-family: var(--font-sans);
-  font-weight: var(--font-sans-weight, 400);
+  font-family: var(--font-body);
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wght" var(--font-sans-weight, 400), "wdth" 100;
+  font-optical-sizing: auto;
+  font-variation-settings: "wght" 400, "wdth" 100;
   line-height: 1.75;
   font-size: 1.15em;
-  color: #363636;
-  background: #ffffff;
+
+  color: var(--text-primary);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-h1 {
-  font-size: 1.5em;
-  margin-top: 0;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-serif);
-  margin: 3em 0 1em;
-  letter-spacing: 0.05em;
+h2 {
+  font-family: var(--font-heading);
   font-optical-sizing: auto;
-  font-weight: var(--font-serif-weight, 400);
-  font-style: italic;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin: 3rem 0 0;
+}
+
+h2 {
+  margin: 3rem 0 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 p,
 ul,
 ol {
-  margin-bottom: 2em;
-  color: #1d1d1d;
-  font-family: sans-serif;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
 }
 
 a {
   text-decoration: none;
-  color: #0076d1;
+  color: var(--accent);
 }
 
 a:hover {
@@ -50,9 +55,4 @@ a:hover {
 
 img {
   max-width: 100%;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #dbdbdb;
 }

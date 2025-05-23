@@ -1,9 +1,0 @@
-@import "./styles/variables.css";
-@import "./styles/base.css";
-
-.container {
-  max-width: 64ch;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin: auto;
-}
