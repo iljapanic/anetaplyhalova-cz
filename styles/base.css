@@ -39,6 +39,7 @@ h2 {
 p,
 ul,
 ol {
+  font-size: 1.15rem;
   margin-top: 0;
   margin-bottom: 1.5rem;
   color: var(--text-primary);

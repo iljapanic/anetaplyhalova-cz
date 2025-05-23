@@ -17,11 +17,15 @@
 }
 
 .footer {
-  padding-bottom: 6rem;
+  padding: 6rem 0;
 }
 
-.footer p {
+.tight-spacing p {
   margin-bottom: 0.75rem;
+}
+
+.text-small {
+  font-size: 1rem;
 }
 
 .text-secondary {
@@ -34,4 +38,22 @@
 
 .text-center {
   text-align: center;
+}
+
+.logos {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  width: fit-content;
+}
+
+.logos img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
