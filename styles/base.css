@@ -5,7 +5,14 @@ body {
   font-optical-sizing: auto;
   font-variation-settings: "wght" 400, "wdth" 100;
   line-height: 1.75;
+
+  /* font size - desktop */
   font-size: 1.15em;
+
+  /* font size - mobile */
+  @media (max-width: 768px) {
+    font-size: 1em;
+  }
 
   color: var(--text-primary);
   text-rendering: optimizeLegibility;
