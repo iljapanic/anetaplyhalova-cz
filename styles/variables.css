@@ -1,10 +1,8 @@
 :root {
   /* fonts */
 
-  --font-body: "Merriweather", serif;
-
-  --font-heading: "Merriweather Sans", system-ui, "Segoe UI", "Helvetica Neue",
-    sans-serif;
+  --font-heading: "Inter", system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-body: "Inter", system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
 
   /* colors */
   --text-primary: #fff;
