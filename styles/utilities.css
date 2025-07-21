@@ -1,0 +1,53 @@
+.container {
+  max-width: 58ch;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+}
+
+.spacing-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.spacing-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.spacing-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.header {
+  margin-bottom: 5rem;
+}
+
+.footer {
+  padding: 6rem 0;
+}
+
+.tight-spacing p {
+  margin-bottom: 0.75rem;
+}
+
+.text-small {
+  font-size: 1rem;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-center {
+  text-align: center;
+}

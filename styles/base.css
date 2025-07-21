@@ -17,10 +17,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../images/bg.jpg");
-  background-size: cover;
-  background-position: center;
-  /* background-attachment: fixed; */
+  position: relative;
+  min-height: 100vh;
 }
 
 h1,

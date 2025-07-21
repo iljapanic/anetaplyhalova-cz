@@ -5,8 +5,8 @@
   --font-body: "Inter", system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
 
   /* colors */
-  --text-primary: #fff;
-  --text-secondary: #0093b5;
-  --border: #dbdbdb;
-  --accent: #0093b5;
+  --text-primary: #293835;
+  --text-secondary: #3f625b;
+  --border: #dee9e6;
+  --accent: #3f625b;
 }
