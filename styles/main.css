@@ -77,3 +77,7 @@
   mix-blend-mode: soft-light;
   opacity: 0.15;
 }
+.container p {
+  text-align: justify;
+  hyphens: auto;
+}
