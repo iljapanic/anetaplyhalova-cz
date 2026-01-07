@@ -119,6 +119,14 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.footer .text-small {
+  margin-bottom: 0.5rem;
+}
+
+.footer .logos {
+  margin-top: 0.5rem;
+}
+
 
 @media (max-width: 768px) {
   .spacing-3 {
