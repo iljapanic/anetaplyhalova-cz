@@ -5,32 +5,35 @@
 
 .spacing-3 {
   display: flex;                
-  align-items: flex-start;      
-  gap: 1.5rem;                  
-  padding: 1.5rem;              
-  background: rgba(255, 255, 255, 0.6); 
-  backdrop-filter: blur(8px);          
+  align-items: center;        
+  gap: 1.5rem;                    
+  padding: 1.5rem;                
+  background: rgba(200, 230, 200, 0.6); 
+  backdrop-filter: blur(8px);     
   border-radius: 20px;
-  max-width: 800px;             
-  margin: 2rem auto;            
+  max-width: 800px;               
+  margin: 2rem auto;              
 }
 
 
 .profile-image {
-  width: 8rem;                  
-  flex-shrink: 0;               
-  border-radius: 16px;          
+  width: 8rem;                    
+  flex-shrink: 0;                 
+  border-radius: 16px;            
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08); 
   display: block;
   margin: 0;
+  margin-top: 0.2rem; 
 }
+
 
 .header-text {
   flex: 1; 
 }
 
 
-/* logo cloud */
+
+
 .logos {
   display: flex;
   gap: 2rem;
@@ -49,7 +52,7 @@
   display: block;
 }
 
-/* mesh gradient */
+
 .mesh-gradient {
   position: fixed;
   top: -50%;
