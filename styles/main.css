@@ -17,7 +17,7 @@
 
 
 .profile-image {
-  width: 8rem;                    
+  width: 10rem;                    
   flex-shrink: 0;                 
   border-radius: 16px;            
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08); 
@@ -102,5 +102,5 @@
 }
 .container p {
   text-align: justify;
-  hyphens: auto;
+  hyphens: none;
 }
