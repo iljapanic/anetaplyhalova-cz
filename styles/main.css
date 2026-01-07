@@ -116,19 +116,19 @@
   font-style: italic;    
   line-height: 1.4;      
   color: #333;           
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
   .spacing-3 {
-    flex-direction: column;    /* prvky pod sebou */
-    align-items: flex-start;   /* text vlevo nahoře */
+    flex-direction: column;    
+    align-items: flex-start;   
   }
 
   .profile-image {
-    width: 100%;               /* fotka se přizpůsobí šířce */
-    max-width: 250px;          /* aby nebyla moc velká */
-    margin: 1.5rem 0 0 0;      /* mezera nad fotkou */
+    width: 100%;               
+    max-width: 250px;          
+    margin: 1.5rem 0 0 0;      
   }
 }
