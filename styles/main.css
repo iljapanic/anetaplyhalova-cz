@@ -8,7 +8,7 @@
   align-items: center;        
   gap: 1.5rem;                    
   padding: 1.5rem;                
-  background: rgba(240, 244, 232, 0.7); 
+  background: rgba(230, 238, 220, 0.8); 
   backdrop-filter: blur(8px);     
   border-radius: 20px;
   max-width: 800px;               
@@ -39,12 +39,16 @@
   gap: 2rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  background-color: rgba(240, 244, 232, 0.7);
+  background-color: rgba(230, 238, 220, 0.8); 
   padding: 1rem;
   border-radius: 0.25rem;
-  justify-content: center;  
-  width: 100%;              
+  justify-content: center; 
+  width: 100%;            
+  max-width: 800px;       
+  margin-left: auto;       
+  margin-right: auto;      
 }
+
 
 
 .logos img {
